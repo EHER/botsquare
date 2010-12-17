@@ -2,12 +2,14 @@
 
 namespace app\models;
 
+use \lithium\data\Model;
+
 /**
  * Description of Schedule
  *
  * @author eher
  */
-class Schedule {
+class Schedule extends Model {
 	private $place;
 	private $date;
 	private $time;
